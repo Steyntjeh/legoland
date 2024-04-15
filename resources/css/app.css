@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('../../public/Bestanden/images/navBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90px;
+}
+
+img {
+    height: 100px;
+    width: 120px;
+}
+
+main .hero {
+    height: 248px;
+    width: 100%;
+
+    margin-bottom: 30px;
+    margin: 10px;
+
+    background-image: url("../../public/Bestanden/images/bannerAboutUs.jpg");
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h2 {
+    color: cornflowerblue;
+
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.hero p {
+    width: 400px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.hero .learnMore{
+    margin-top: 20px;
+    margin-left: 500px;
+
+    height: 40px;
+    width: 220px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnMore:hover {
+    background-color: white;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+
+    padding: 10px;
+
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main {
+    height: 100%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: cornflowerblue;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin: 20px;
+    padding: 19px;
+
+    font-weight: bold;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 200px;
+    height: 50px;
+
+    font-size: 20px;
+
+    margin: 10px;
+}
+
+button {
+    height: 48px;
+    width: 100px;
+
+    font-weight: bold;
+
+    background-color: yellow;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+section {
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    color: cornflowerblue;
+
+    font-weight: 900;
+    font-size: 40px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 5px;
+
+    font-size: 20px;
+
+}
+
+textarea {
+    resize: none;
+
+    height: 100px;
+    width: 300px;
+}
+
+.dikgedrukt {
+    font-weight: bold;
+}
+
+.openingsTijden {
+    height: 100%;
+}
+
+.openingsTijden p {
+    margin: 15px;
+}
+
+.bijzonderheden {
+    width: 400px;
+}
+
+.aboutUs {
+    margin-top: 16px;
+}
+
+.bannerComingSoon {
+    background-image: url('../../public/Bestanden/images/bannerComingSoon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 300px;
+    width: 1400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerComingSoon .h1ComingSoon {
+    color: white;
+    background-color: red;
+    border: 10px solid white;
+
+    font-size: 100px;
+
+    opacity:  0.6;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    height: auto;
+    width: 50%;
+
+    border: 5px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 20px;
+}
+
+.cards img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    max-height: 100px;
+    max-width: 200px;
+}
+
+.cards p {
+    margin: 10px;
+}
+
+footer {
+    background-image: url('../../public/Bestanden/images/footerImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 200px;
+
+    color: white;
+}
